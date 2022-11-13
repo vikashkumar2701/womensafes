@@ -23,6 +23,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Destination from './components/destination';
 import FinalDelivery from './components/finalDelivery';
 import Dashboard from './components/dashboard';
+import AddContacts from './components/addContacts';
 
 
 const App: () => Node = () => {
@@ -37,6 +38,7 @@ const App: () => Node = () => {
        <Stack.Screen name="Dashboard" component={Dashboard} />
         <Stack.Screen name="Capability" component={Destination} />
         <Stack.Screen name="FinalDelivery" component={FinalDelivery} />
+        <Stack.Screen name="AddContacts" component={AddContacts} />
      </Stack.Navigator>
   </NavigationContainer>
   </>

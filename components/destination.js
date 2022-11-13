@@ -89,7 +89,7 @@ export default function Destination({navigation}) {
         arr.forEach(function (object) {
           // console.log('Object: ' + object);
           // console.log('-->' + object.date);
-          console.log('-->' + object.body);
+          // console.log('-->' + object.body);
           setjsonsecret(object.body);
           extractCode(object.body);
           return;

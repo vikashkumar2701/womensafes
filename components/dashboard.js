@@ -50,7 +50,7 @@ export default function Dashboard({navigation}) {
             </View>
             </Pressable>
             <View style={styles.btn}>
-            <Text style={styles.tileText}>Add Contacts</Text>
+            <Text style={styles.tileText} onPress={() => navigation.push('AddContacts')}>Add Contacts</Text>
             </View>
         </View>
         <View style={styles.tiles}>
